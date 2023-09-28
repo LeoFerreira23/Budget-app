@@ -1,0 +1,75 @@
+.card {
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    padding: 20px;
+    max-width: 600px;
+    margin: 0 auto;
+    background: rgba( 229, 208, 208, 0.2 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 19px );
+    -webkit-backdrop-filter: blur( 19px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    
+}
+body {
+    font-family: 'Secular One';
+    margin: 0;
+    padding: 20px;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgb(84, 218, 255) 0%, rgb(84, 218, 255) 40%, rgb(255, 255, 255) 100%);
+}
+  
+h1 {
+    text-align: center;
+}
+  
+.form-group {
+    margin-bottom: 10px;
+}
+  
+.form-group label {
+    display: block;
+}
+  
+.form-group input[type="text"],
+.form-group input[type="number"] {
+    width: 100%;
+    padding: 5px;
+    font-family: 'Rubik';
+    width: 100%;
+    border: 0;
+    border-bottom: 2px solid rgb(0, 0, 0);
+    outline: 0;
+    color: rgb(0, 0, 0);
+    padding: 7px 0;
+    background: transparent;
+    transition: border-color 0.2s;
+}
+
+  
+.form-group button {
+    border: 1;
+   border-radius: 25px;
+    padding: 5px 10px;
+    background-color: transparent;
+}
+  
+#transaction-list {
+    margin-top: 20px;
+}
+  
+#transaction-list table {
+    width: 100%;
+    border-collapse: collapse;
+}
+  
+#transaction-list table th,
+#transaction-list table td {
+    padding: 5px;
+    text-align: left;
+    border-bottom: 1px solid rgb(0, 0, 0);
+}
+  
+#budget-summary {
+    margin-top: 20px;
+}
