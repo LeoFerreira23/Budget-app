@@ -49,9 +49,10 @@ h1 {
   
 .form-group button {
     border: 1;
-   border-radius: 25px;
+    border-radius: 25px;
     padding: 5px 10px;
     background-color: transparent;
+    cursor: pointer;
 }
   
 #transaction-list {
