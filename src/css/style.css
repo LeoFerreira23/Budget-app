@@ -49,9 +49,10 @@ h1 {
   
 .form-group button {
     border: 1;
-    border-radius: 25px;
+   border-radius: 25px;
     padding: 5px 10px;
     background-color: transparent;
+    cursor: pointer;
 }
   
 #transaction-list {
@@ -68,6 +69,10 @@ h1 {
     padding: 5px;
     text-align: left;
     border-bottom: 1px solid rgb(0, 0, 0);
+}
+  
+#budget-summary {
+    margin-top: 20px;
 }
   
 #budget-summary {
